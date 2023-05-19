@@ -49,7 +49,28 @@ a:focus {
     background-color: rgb(190, 82, 82);
     padding-top: 8px;
     font-size: 14px;
+    position: relative;
 }
 .sabitem:hover {
+    background-color: rgb(117, 24, 24);
+}
+.sabitem:hover .secondsablist {
+    display: block;
+}
+.secondsablist {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    display: none;
+}
+.secondsabitem {
+    padding: 5px 15px;
+    height: 25px;
+    background-color: rgb(190, 93, 93);
+
+}
+.secondsabitem:hover {
     background-color: rgb(117, 24, 24);
 }
