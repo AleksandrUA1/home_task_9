@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+a:focus {
+    outline: none;
+    box-shadow: 0px 0px 0px 2px #a0a0a0;
+}
+.list {
+    font-size: 0;
+    margin-bottom: 20px;
+}
+.list-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+    height: 30px;
+    background-color: brown;
+    color: aliceblue;
+    padding-top: 8px;
+    text-align: center;
+    position: relative;
+}
+.list-item:hover {
+    background-color: rgb(117, 24, 24);
+    cursor: pointer;
+}
+.list-link {
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: aliceblue;
+    text-transform: capitalize;
+
+}
+.list-item:hover .sablist {
+    display: block;
+}
+.sablist {
+    position: absolute;
+    top: 30px;
+    display: none;
+}
+.sabitem {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    width: 150px;
+    height: 25px;
+    background-color: rgb(190, 82, 82);
+    padding-top: 8px;
+    font-size: 14px;
+}
+.sabitem:hover {
+    background-color: rgb(117, 24, 24);
+}
